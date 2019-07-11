@@ -1,6 +1,7 @@
 nav {
   width: 100%;
   border: solid black 1px;
+  font-family: 'Roboto';
   display: inline-block;
 }
 
@@ -30,7 +31,6 @@ nav {
 }
 
 .navBarLeft a {
-  font-weight: bold;
   margin-left: 10px;
   letter-spacing: 0.1 px;
 }
@@ -52,6 +52,10 @@ nav {
   vertical-align: middle;
 }
 
+.mainWrapper {
+  border: solid black 1px;
+}
+
 .title{
   width: 500px;
   height: 36px;
@@ -64,11 +68,25 @@ nav {
   line-height: 1.5;
   margin-left: 30%;
 }
+
 .t2 {
   margin-top: 10px;
 }
+
 #superJumbo{
-  width: 736px;
-  height: 414px;
+  width: 80%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
+}
+
+.imgDesc {
+  width: 60%;
+  border: solid black 1px;
+  line-height: 1.25rem;
+  color: #666;
+  margin-right: 7px;
+  margin: auto;
+  text-align: left;
 }
