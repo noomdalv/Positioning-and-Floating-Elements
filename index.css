@@ -1,11 +1,12 @@
 nav {
+  width: 100%;
   border: solid black 1px;
+  display: inline-block;
 }
 
 .nytLogo {
   width: 225px;
   height: 40px;
-  border: solid red 1px;
   }
 
 .navButton {
@@ -21,16 +22,37 @@ nav {
   font-weight: 700;
   font-family: Arial;
 }
+
+.navBarLeft {
+  display: inline-block;
+  border: solid pink 1px;
+  width: 15%;
+}
+
+.navBarLeft a {
+  font-weight: bold;
+  margin-left: 10px;
+  letter-spacing: 0.1 px;
+}
+
+.navText {
+  display: inline-block;
+}
+
 .navBarRight{
   float: right;
-  border: solid green 2px;
+  margin-top: 15px;
 }
 
-.navBarLeft{
-  border: solid pink 2px;
+.navBarLogo {
+  display: inline-block;
+  width: 70%;
+  border: solid black 1px;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.navBarLogo{
-  margin-left: auto;
-  margin-right: auto;
+#title {
+  width: 384px;
+  margin: auto;
 }
