@@ -100,16 +100,28 @@ nav {
 .articleInfo{
   border: solid pink;
   margin: auto;
+  margin-top: 30px; 
   width: 40%;
   height: 700px;
 }
-.articleIcons{
-  float: right;
+.articleMedia {
   border: solid red 2px;
+  height: 40px;
 }
-.byAuthor{
-  border: solid green 2px;
+
+.articleMedia i {
+  float: right;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 24px;
 }
-.date{
-  border: solid blue 2px;
+
+.byAuthor {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.date {
+  float: left;
+  font-size: 16px;
 }
