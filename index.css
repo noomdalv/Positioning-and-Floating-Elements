@@ -52,7 +52,23 @@ nav {
   vertical-align: middle;
 }
 
-#title {
-  width: 384px;
+.title{
+  width: 500px;
+  height: 36px;
   margin: auto;
+  margin-top: 55px;
+  color: #121212;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-left: 30%;
+}
+.t2 {
+  margin-top: 10px;
+}
+#superJumbo{
+  width: 736px;
+  height: 414px;
+  display: block;
 }
