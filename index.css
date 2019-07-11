@@ -81,12 +81,35 @@ nav {
   display: block;
 }
 
-.imgDesc {
-  width: 60%;
-  border: solid black 1px;
+.desc {
+  width: 80%;
   line-height: 1.25rem;
   color: #666;
   margin-right: 7px;
   margin: auto;
   text-align: left;
+}
+.d1 {
+  margin-top: 10px;
+}
+
+#span{
+  font-size: 14px;
+  margin-left: 7px;
+}
+.articleInfo{
+  border: solid pink;
+  margin: auto;
+  width: 40%;
+  height: 700px;
+}
+.articleIcons{
+  float: right;
+  border: solid red 2px;
+}
+.byAuthor{
+  border: solid green 2px;
+}
+.date{
+  border: solid blue 2px;
 }
