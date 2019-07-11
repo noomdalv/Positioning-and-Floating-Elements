@@ -2,19 +2,35 @@ nav {
   border: solid black 1px;
 }
 
-nav li {
-  display: inline-block;
-}
-
 .nytLogo {
   width: 225px;
   height: 40px;
-  border: solid black 1px;
-}
+  border: solid red 1px;
+  }
 
 .navButton {
-  
   color: white;
   background-color: #6288a5;
   border: 1px solid #326891;
+  border-radius: 3px;
+  font-size: 11px;
+  vertical-align: middle;
+  letter-spacing: 0.05em;
+  line-height: 11px;
+  padding: 8px 9px 6px;
+  font-weight: 700;
+  font-family: Arial;
+}
+.navBarRight{
+  float: right;
+  border: solid green 2px;
+}
+
+.navBarLeft{
+  border: solid pink 2px;
+}
+
+.navBarLogo{
+  margin-left: auto;
+  margin-right: auto;
 }
