@@ -190,13 +190,31 @@ nav {
   line-height: 3px;
 }
 
-#bottomImg p {
-  /* fix width */
-  border: solid black 1px;
+#bottomImg  {
+  width: 720px;
+  height: 540px;
+  margin: auto;
 }
 
 #bicep2Img {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  margin-top: 12px;
+}
+.imageTitle {
+  margin-right: 7px;
+  color: #666;
+  font-size: 17px;
+  line-height: 0.5px;
+}
+#btmSpan {
+  color: #888;
+  font-size: 14px;
+  line-height: 3px;
+}
+
+.finalP {
+  color: #888;
+  font-size: 13px;
 }
