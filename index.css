@@ -104,7 +104,6 @@ nav {
 }
 
 .articleInfo{
-  border: solid pink;
   margin: auto;
   margin-top: 30px;
   width: 40%;
@@ -262,3 +261,31 @@ nav {
 
 
 /* RECOMMENDATIONS */
+.recommendationAndPopular {
+  width: 75%;
+  height: 700px;
+  margin: auto;
+  border: solid black 3px;
+}
+
+.recommendations {
+  border-top: solid black 1px;
+  width: 72%;
+  border: solid black 3px;
+}
+
+#titleRecommendations {
+  font-size: 16px;
+  color: black;
+}
+
+.popular {
+  border-top: solid black 1px;
+  width: 25%;
+  float: right;
+}
+
+#titlePopular {
+  font-size: 16px;
+  color: black;
+}
