@@ -115,7 +115,22 @@ nav {
   float: right;
   margin-top: 15px;
   margin-left: 10px;
-  font-size: 24px;
+  font-size: 15px;
+}
+
+.articleMedia2 i{
+  font-size: 23px;
+}
+
+.articleMedia1 i{
+  border-radius: 50%;
+  background: #e5e5e5;
+  padding:5px;
+}
+
+.articleContent{
+  font-size: 21px;
+  color: #333;
 }
 
 .byAuthor {
