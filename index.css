@@ -104,7 +104,9 @@ nav {
   margin-top: 30px;
   width: 40%;
 }
-
+.articleInfo a{
+  color: rgb(50, 104, 145);
+}
 .articleMedia {
   border: solid red 2px;
   height: 40px;
@@ -164,4 +166,18 @@ nav {
 .midBox {
   display: inline-block;
   margin: auto;
+}
+.videoSection{
+  width: 600px;
+}
+#videoTitle {
+  margin-right: 7px;
+  color: #666;
+  font-size: 15px;
+  line-height: 0.5px;
+}
+#videoDescription {
+  color: #888;
+  font-size: 14px;
+  line-height: 3px;
 }
