@@ -265,16 +265,16 @@ nav {
 .popular {
   float: right;
   display: inline-block;
-  width: 25%;
+  width: 23%;
   border-top: solid black 1px;
-  border: solid green 2px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 #titlePopular {
   font-weight: bold;
-  font-size: 17px;
+  font-size: 15px;
   color: black;
+  margin-bottom: 30px;
 }
 
 .popular a {
@@ -285,14 +285,14 @@ nav {
 
 .popular ul {
   padding: 0;
+  margin-top: 10px;
 }
 
 .popular li {
-  margin: 10px 0px 10px 0px;
+  margin: 20px 0px 10px 0px;
 }
 
 .recommendationAndPopular {
-  border: solid orange 3px;
   width: 80%;
   height: 1100px;
   margin: auto;
@@ -300,26 +300,29 @@ nav {
 
 .recommendations {
   float: left;
-  width: 71%;
-  border: solid blue 3px;
+  width: 76%;
+  border-top: solid black 1px;
 }
 
 #titleRecommendations {
   font-weight: bold;
-  font-size: 17px;
+  font-size: 15px;
   color: black;
   text-align: left;
   display: block;
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
 .recommendedBox {
   display: inline-block;
   width: 32%;
+  padding: 4px;
 }
 
 .recommendedImg {
   width: 100%;
-  height: 60%;
+  height: 58%;
 }
 
 .recommendedTitle {
@@ -349,8 +352,9 @@ nav {
 /* Editor Picks */
 
 .editorPicks {
-  border: solid black 3px;
-  width: 73%;
+  width: 75%;
+  border-top: solid black 1px;
+  float: left;
 }
 
 .principalTitleEditor {
@@ -362,7 +366,6 @@ nav {
 }
 
 .editorBox {
-  border: solid blue 1px;
   width: 32%;
   display: inline-block;
 }
