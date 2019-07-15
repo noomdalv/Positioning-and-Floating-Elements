@@ -294,7 +294,7 @@ nav {
 
 .recommendationAndPopular {
   width: 80%;
-  height: 1100px;
+  height: 1130px;
   margin: auto;
 }
 
@@ -405,17 +405,21 @@ nav {
 }
 
 /* Footer */
- footer {
-   border-top: 2px solid rgb(226, 226, 226);
-   border-top-width: 2px;
-   border-top-style: solid;
-   border-top-color: rgb(226, 226, 226);
-   border-bottom: 1px solid rgb(226, 226, 226);
-   border-bottom-width: 1px;
-   border-bottom-style: solid;
-   border-bottom-color: rgb(226, 226, 226);
-   border-spacing: 5px;
-   width: 80%;
-   margin: auto;
-   height: 600px;
- }
+footer {
+  width: 80%;
+  margin: auto;
+  height: 500px;
+}
+
+.footerLeft {
+  border-top: solid rgb(226, 226, 226) 1px;
+}
+
+.footerRight {
+  margin-top: 1px;
+  border-top: solid rgb(226, 226, 226) 1px;
+}
+
+.titleFooterLeft {
+  
+}
