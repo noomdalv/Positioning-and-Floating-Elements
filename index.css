@@ -260,35 +260,14 @@ nav {
 
 
 
-/* RECOMMENDATIONS */
-.recommendationAndPopular {
-  width: 80%;
-  height: 900px;
-  margin: auto;
-}
-
-.recommendations {
-  float: left;
-  width: 73%;
-  border-top: solid black 1px;
-  border: solid red 1px;
-  padding-top: 20px;
-}
-
-#titleRecommendations {
-  font-weight: bold;
-  font-size: 17px;
-  color: black;
-  text-align: left;
-  display: block;
-  border: solid black 5px;
-}
+/* RECOMMENDATIONS AND POPULAR */
 
 .popular {
   border-top: solid black 1px;
+  border: solid green 2px;
   padding-top: 20px;
   float: right;
-  width: 26%;
+  width: 25%;
 }
 
 #titlePopular {
@@ -311,12 +290,31 @@ nav {
   margin: 10px 0px 10px 0px;
 }
 
+.recommendationAndPopular {
+  border: solid orange 3px;
+  width: 80%;
+  height: 900px;
+  margin: auto;
+}
+
+.recommendations {
+  float: left;
+  width: 73%;
+  border-top: solid black 1px;
+  padding-top: 20px;
+}
+
+#titleRecommendations {
+  font-weight: bold;
+  font-size: 17px;
+  color: black;
+  text-align: left;
+  display: block;
+}
+
 .recommendedBox {
   display: inline-block;
-  width: 30%;
-  height: 40%;
-  border: solid blue 1px;
-  margin: 10px;
+  width: 32%;
 }
 
 .recommendedImg {
@@ -345,4 +343,16 @@ nav {
   color: rgb(153, 153, 153);
   font-size: 12px;
   line-height: 1.23em;
+}
+
+/* Editor Picks */
+
+.editorPicks {
+  float: left;
+  border: solid black 1px;
+  width: 32%;
+}
+
+.editorBox {
+  border: solid blue 1px;
 }
