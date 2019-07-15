@@ -411,6 +411,7 @@ footer {
   height: 500px;
   border: solid orange 2px;
   border-top: solid rgb(226, 226, 226) 2px;
+  font-size: 14px;
 }
 
 .footerTop {
@@ -442,9 +443,17 @@ footer {
   border: solid black 1px;
 }
 
+
 .footerBoxRight {
   float: right;
   display: inline-block;
   height: 300px;
   border: solid black 1px;
+}
+
+.footerTitle {
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 50px;
 }
