@@ -349,10 +349,47 @@ nav {
 
 .editorPicks {
   float: left;
-  border: solid black 1px;
-  width: 32%;
+  border-top: solid black 1px;
+  width: 73%;
+}
+
+.principalTitleEditor {
+  font-weight: bold;
+  font-size: 17px;
+  color: black;
+  text-align: left;
+  display: block;
 }
 
 .editorBox {
   border: solid blue 1px;
+  width: 32%;
+  display: inline-block;
+}
+
+.editorImg {
+  width: 100%;
+}
+
+.editorTitle{
+  text-align: right;
+  font-size: 11px;
+  height: 10px;
+  color: rgb(153, 153, 153);
+  line-height: 1.23em;
+}
+
+.editorDescription {
+  text-align: left;
+  color: rgb(18, 18, 18);
+  font-size: 1.1875rem;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.editorDate {
+  text-align: left;
+  color: rgb(153, 153, 153);
+  font-size: 12px;
+  line-height: 1.23em;
 }
