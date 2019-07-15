@@ -1,11 +1,13 @@
-nav {
-  width: 100%;
-  border: solid black 1px;
+body {
   font-family: 'Roboto';
-  display: inline-block;
 }
 
 /* NAVIGATION BAR */
+nav {
+  width: 100%;
+  border: solid black 1px;
+  display: inline-block;
+}
 
 .nytLogo {
   width: 225px;
@@ -57,7 +59,7 @@ nav {
 /* MAIN CONTENT */
 
 .mainWrapper {
-  border: solid black 1px;
+
 }
 
 .title{
@@ -258,16 +260,15 @@ nav {
   margin-right: 10px;
 }
 
-
-
 /* RECOMMENDATIONS AND POPULAR */
 
 .popular {
+  float: right;
+  display: inline-block;
+  width: 25%;
   border-top: solid black 1px;
   border: solid green 2px;
   padding-top: 20px;
-  float: right;
-  width: 25%;
 }
 
 #titlePopular {
@@ -293,15 +294,14 @@ nav {
 .recommendationAndPopular {
   border: solid orange 3px;
   width: 80%;
-  height: 900px;
+  height: 1100px;
   margin: auto;
 }
 
 .recommendations {
   float: left;
-  width: 73%;
-  border-top: solid black 1px;
-  padding-top: 20px;
+  width: 71%;
+  border: solid blue 3px;
 }
 
 #titleRecommendations {
@@ -332,8 +332,9 @@ nav {
 
 .recommendedDescription {
   text-align: left;
+  height: 60px;
   color: rgb(18, 18, 18);
-  font-size: 1.125rem;
+  font-size: 1.05rem;
   line-height: 22px;
   font-weight: 500;
 }
@@ -348,8 +349,7 @@ nav {
 /* Editor Picks */
 
 .editorPicks {
-  float: left;
-  border-top: solid black 1px;
+  border: solid black 3px;
   width: 73%;
 }
 
