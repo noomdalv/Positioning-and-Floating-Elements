@@ -409,17 +409,42 @@ footer {
   width: 80%;
   margin: auto;
   height: 500px;
+  border: solid orange 2px;
+  border-top: solid rgb(226, 226, 226) 2px;
 }
 
-.footerLeft {
-  border-top: solid rgb(226, 226, 226) 1px;
-}
-
-.footerRight {
+.footerTop {
   margin-top: 1px;
   border-top: solid rgb(226, 226, 226) 1px;
 }
 
-.titleFooterLeft {
-  
+.goHome {
+  float: right;
+  text-decoration: none;
+}
+
+.footerLeft {
+  display: inline-block;
+  width: 83%;
+}
+
+.footerRight {
+  display: inline-block;
+  width: 15%;
+  border: solid black 1px;
+}
+
+.footerBoxLeft {
+  float: left;
+  display: inline-block;
+  width: 18%;
+  height: 300px;
+  border: solid black 1px;
+}
+
+.footerBoxRight {
+  float: right;
+  display: inline-block;
+  height: 300px;
+  border: solid black 1px;
 }
