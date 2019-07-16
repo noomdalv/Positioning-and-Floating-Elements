@@ -1,0 +1,59 @@
+body {
+  font-family: 'Roboto';
+}
+
+/* NAVIGATION BAR */
+nav {
+  width: 100%;
+  display: inline-block;
+}
+
+header {
+  border-bottom: solid #E2E2E2 1px;
+}
+.nytLogo {
+  width: 225px;
+  }
+
+.navButton {
+  color: white;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  border-radius: 3px;
+  font-size: 11px;
+  vertical-align: middle;
+  letter-spacing: 0.05em;
+  line-height: 11px;
+  padding: 8px 9px 6px;
+  font-weight: 700;
+  font-family: Arial;
+}
+
+.navBarLeft {
+  display: inline-block;
+  width: 15%;
+  height: 31px;
+}
+
+.navBarLeft a {
+  margin-left: 17px;
+  letter-spacing: 0.1 px;
+}
+
+.navText {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navBarRight{
+  float: right;
+  margin-top: 7px;
+}
+
+.navBarLogo {
+  display: inline-block;
+  width: 70%;
+  text-align: center;
+  vertical-align: middle;
+}

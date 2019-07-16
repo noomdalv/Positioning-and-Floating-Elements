@@ -1,63 +1,3 @@
-body {
-  font-family: 'Roboto';
-}
-
-/* NAVIGATION BAR */
-nav {
-  width: 100%;
-  display: inline-block;
-}
-
-header {
-  border-bottom: solid #E2E2E2 1px;
-}
-.nytLogo {
-  width: 225px;
-  }
-
-.navButton {
-  color: white;
-  background-color: #6288a5;
-  border: 1px solid #326891;
-  border-radius: 3px;
-  font-size: 11px;
-  vertical-align: middle;
-  letter-spacing: 0.05em;
-  line-height: 11px;
-  padding: 8px 9px 6px;
-  font-weight: 700;
-  font-family: Arial;
-}
-
-.navBarLeft {
-  display: inline-block;
-  width: 15%;
-  height: 31px;
-}
-
-.navBarLeft a {
-  margin-left: 17px;
-  letter-spacing: 0.1 px;
-}
-
-.navText {
-  display: inline-block;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.navBarRight{
-  float: right;
-  margin-top: 7px;
-}
-
-.navBarLogo {
-  display: inline-block;
-  width: 70%;
-  text-align: center;
-  vertical-align: middle;
-}
-
 /* MAIN CONTENT */
 
 .mainWrapper {
@@ -119,9 +59,11 @@ header {
   margin-top: 30px;
   width: 40%;
 }
+
 .articleInfo a{
   color: black;
 }
+
 .articleMedia {
   border: solid red 2px;
   height: 40px;
@@ -134,8 +76,88 @@ header {
   font-size: 15px;
 }
 
-.articleMedia2 i{
-  font-size: 23px;
+.commentsIcon {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-width: 26px;
+    min-height: 14px;
+    position: relative;
+    width: auto;
+    background: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(102, 102, 102);
+    border-image: initial;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.commentsIcon::before {
+    bottom: -7px;
+    content: "";
+    display: block;
+    left: 15px;
+    position: absolute;
+    width: 0px;
+    border-color: rgb(102, 102, 102) transparent;
+    border-style: solid;
+    border-width: 6px 0px 0px 8px;
+}
+
+.commentsSpan {
+    color: rgb(0, 0, 0);
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    margin-top: auto;
+}
+
+.commentsIcon::after {
+    bottom: -6px;
+    content: "";
+    display: block;
+    left: 16px;
+    position: absolute;
+    width: 0px;
+    border-color: rgb(255, 255, 255) transparent;
+    border-style: solid;
+    border-width: 6px 0px 0px 6px;
+}
+
+.commentsIcon:hover {
+    border-color: rgba(102, 102, 102, 0.4);
+}
+
+.bookmarkIcon {
+  background-color: rgb(255, 255, 255);
+  left: 0px;
+  position: relative;
+  top: 2px;
+}
+
+.bookmarkIcon:hover {
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.articleButton {
+  background: transparent;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 5px;
+  width: 27px;
+  height: 27px;
+}
+
+.articleButton:hover {
+  background-color: #fff;
+  border: 1px solid #ccc;
 }
 
 .articleMedia1 i{
@@ -411,115 +433,4 @@ header {
   color: rgb(153, 153, 153);
   font-size: 12px;
   line-height: 1.23em;
-}
-
-/* Footer */
-footer {
-  width: 80%;
-  margin: auto;
-  height: 460px;
-  border-top: solid rgb(226, 226, 226) 2px;
-  font-size: 14px;
-  margin-top: 42px;
-}
-
-footer ul {
-  padding: 0px;
-}
-
-footer li {
-  margin-top: 8px;
-}
-
-.footerTop {
-  margin-top: 1px;
-  border-top: solid rgb(226, 226, 226) 1px;
-  height: 50px;
-  width: 100%;
-}
-
-.goHome {
-  text-decoration: none;
-  color: rgb(98, 136, 165);
-  font-size: 11px;
-}
-
-.goHomeDiv {
-    float: right;
-    margin-top: 20px;
-}
-
-.footerLeft {
-  display: inline-block;
-  width: 83%;
-}
-
-.footerBoxLeft {
-  float: left;
-  display: inline-block;
-  margin-left: 15px;
-  width: 18%;
-}
-
-.footerRight {
-  float: right;
-  display: inline-block;
-  width: 15%;
-  border-left: solid rgb(226, 226, 226) 1px;
-  padding-left: 18px;
-}
-
-.footerBoxRight {
-  display: inline-block;
-}
-
-.footerRightIconLink {
-  font-weight: 600;
-  font-size: 15px;
-}
-
-.footerRightLink {
-  font-size: 11px;
-  }
-
-.footerBoxRight li {
-  margin-top: 10px;
-}
-
-#footerRightLine {
-  border-top: #E2E2E2;
-  font-size: 8px;
-}
-
-.footerTitle {
-  color: rgb(51, 51, 51);
-  font-size: 13px;
-  font-weight: 700;
-  margin-bottom: 50px;
-}
-
-.footerIcon {
-    display: inline-block;
-    height: 13px;
-    width: 13px;
-    margin-right: 7px;
-    vertical-align: middle;
-}
-
-.footerBottomList {
-  text-align: center;
-  list-style: none;
-  padding: 0px;
-  font-size: 11px;
-  height: 10px;
-  color: rgb(153, 153, 153);
-}
-
-.footerBottom li {
-    display: inline-block;
-    margin-right: 15px;
-}
-
-.footerBottom {
-  border-top: #E2E2E2;
 }
