@@ -61,7 +61,8 @@
 }
 
 .articleInfo a{
-  color: black;
+  color: rgb(50, 104, 145);
+  text-decoration: none;
 }
 
 .articleMedia {
@@ -69,11 +70,10 @@
   height: 40px;
 }
 
-.articleMedia i {
+.articleMedia a {
   float: right;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-left: 10px;
-  font-size: 15px;
 }
 
 .commentsIcon {
@@ -145,14 +145,12 @@
 .articleButton {
   background: transparent;
   display: inline-block;
-  height: 20px;
-  width: 20px;
   background-color: #eee;
   border: 1px #eee solid;
   border-radius: 100%;
   padding: 5px;
-  width: 27px;
-  height: 27px;
+  width: 16px;
+  height: 16px;
 }
 
 .articleButton:hover {
@@ -169,16 +167,17 @@
 .articleContent{
   font-size: 21px;
   color: #333;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .byAuthor {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .date {
   float: left;
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .topSectionMiddle {
@@ -198,6 +197,11 @@
 #middleSection {
   margin: auto;
   width: 63%;
+}
+
+.bottomSectionMiddle{
+  font-size: 13px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .midBox {
@@ -241,7 +245,7 @@
 .imageTitle {
   margin-right: 7px;
   color: #666;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 0.5px;
 }
 
@@ -258,7 +262,7 @@
 
 #articleBottom {
   width: 100%;
-  height: 30px;
+  height: 32px;
   border: solid black 1px;
   margin-bottom: 50px;
 }
@@ -268,16 +272,17 @@
 }
 
 #commentsBtn {
+  height: 32px;
   width: 330px;
   color: white;
-  background-color: #6288a5;
+  background-color: rgb(50, 104, 145);
   border: 1px solid #326891;
   border-radius: 3px;
-  font-size: 11px;
+  font-size: 12px;
   vertical-align: middle;
   letter-spacing: 0.05em;
   line-height: 11px;
-  padding: 5px 0px;
+  padding: 5px 0px 5px 0px;
   font-weight: 700;
   font-family: Arial;
 }
