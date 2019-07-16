@@ -1,9 +1,4 @@
 /* MAIN CONTENT */
-
-.mainWrapper {
-
-}
-
 .title{
   width: 500px;
   height: 40px;
@@ -338,6 +333,8 @@
 
 .popular li {
   margin: 20px 0px 10px 0px;
+  padding-bottom: 14px;
+  border-bottom: solid rgb(226, 226, 226) 1px;
 }
 
 .recommendationAndPopular {

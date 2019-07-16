@@ -77,8 +77,8 @@ footer a {
 }
 
 #footerRightLine {
-  border-top: #E2E2E2;
-  font-size: 8px;
+  border-bottom: solid #E2E2E2 1px;
+  padding-bottom: 5px;
 }
 
 .footerTitle {
