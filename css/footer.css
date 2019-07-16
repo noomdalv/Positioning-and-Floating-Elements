@@ -16,6 +16,11 @@ footer li {
   margin-top: 8px;
 }
 
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
 .footerTop {
   margin-top: 1px;
   border-top: solid rgb(226, 226, 226) 1px;
@@ -97,6 +102,10 @@ footer li {
   padding: 0px;
   font-size: 11px;
   height: 10px;
+  color: rgb(153, 153, 153);
+}
+
+.footerBottomList a{
   color: rgb(153, 153, 153);
 }
 
