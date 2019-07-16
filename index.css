@@ -437,12 +437,6 @@ footer li {
   width: 83%;
 }
 
-.footerRight {
-  display: inline-block;
-  width: 15%;
-  border: solid black 1px;
-}
-
 .footerBoxLeft {
   float: left;
   display: inline-block;
@@ -451,13 +445,36 @@ footer li {
   border: solid black 1px;
 }
 
-.footerBoxRight {
+.footerRight {
   float: right;
   display: inline-block;
-  height: 300px;
-  border: solid black 1px;
+  width: 15%;
+  border-left: solid rgb(226, 226, 226) 1px;
+  padding-left: 18px;
 }
 
+.footerBoxRight {
+  display: inline-block;
+  height: 300px;
+}
+
+.footerRightIconLink {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.footerRightLink {
+  font-size: 11px;
+  }
+
+.footerBoxRight li {
+  margin-top: 10px;
+}
+
+#footerRightLine {
+  border-top: #E2E2E2;
+  font-size: 8px;
+}
 .footerTitle {
   color: rgb(51, 51, 51);
   font-size: 13px;
@@ -471,4 +488,4 @@ footer li {
     width: 13px;
     margin-right: 7px;
     vertical-align: middle;
-}
+  }
