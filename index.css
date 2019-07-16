@@ -414,6 +414,14 @@ footer {
   font-size: 14px;
 }
 
+footer ul {
+  padding: 0px;
+}
+
+footer li {
+  margin-top: 5px;
+}
+
 .footerTop {
   margin-top: 1px;
   border-top: solid rgb(226, 226, 226) 1px;
@@ -443,7 +451,6 @@ footer {
   border: solid black 1px;
 }
 
-
 .footerBoxRight {
   float: right;
   display: inline-block;
@@ -456,4 +463,12 @@ footer {
   font-size: 13px;
   font-weight: 700;
   margin-bottom: 50px;
+}
+
+.footerIcon {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    margin-right: 7px;
+    vertical-align: middle;
 }
