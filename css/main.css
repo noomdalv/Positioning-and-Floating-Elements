@@ -219,15 +219,15 @@
 }
 
 #videoTitle {
-  margin-right: 7px;
+  margin: 15px 7px 17px 0px;
   color: #666;
   font-size: 15px;
-  line-height: 0.5px;
+  line-height: 1.5px;
 }
 
 #videoDescription {
   color: #888;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 3px;
 }
 
@@ -243,13 +243,14 @@
   margin-right: auto;
   display: block;
   margin-top: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
+
 .imageTitle {
   margin-right: 7px;
   color: #666;
   font-size: 15px;
-  line-height: 0.5px;
+  line-height: 19px;
 }
 
 #btmSpan {
@@ -361,15 +362,20 @@
 
 .recommendedBox {
   display: inline-block;
+  border-top: solid black 1px;
   width: 32%;
 }
 
-.boxRight {
-  float: right;
+figure {
+  margin: 0;
 }
 
 .boxCenter {
   margin-left: 12px;
+}
+
+.boxRight {
+  float: right;
 }
 
 .recommendedImg {
@@ -380,30 +386,30 @@
 .recommendedTitle {
   text-align: right;
   font-size: 11px;
-  height: 8px;
+  height: 11px;
   color: rgb(153, 153, 153);
-  }
+}
 
 .recommendedDescription {
+  margin-top: 5px;
   text-align: left;
-  height: 30px;
   color: rgb(18, 18, 18);
   font-size: 1.05rem;
-  line-height: 22px;
   font-weight: 500;
 }
 
 .recommendedDate {
   text-align: left;
+  margin-top: 7px;
   color: rgb(153, 153, 153);
   font-size: 12px;
-  height: 35px;
 }
 
 /* Editor Picks */
 
 .editorPicks {
   border-top: solid black 1px;
+  margin-top: 20px;
   width: 75%;
   float: left;
 }
@@ -428,21 +434,21 @@
 .editorTitle{
   text-align: right;
   font-size: 11px;
-  height: 8px;
   color: rgb(153, 153, 153);
 }
 
 .editorDescription {
   text-align: left;
+  margin-top: 5px;
   color: rgb(18, 18, 18);
   font-size: 1.1875rem;
   line-height: 22px;
   font-weight: 500;
-  height: 30px;
 }
 
 .editorDate {
   text-align: left;
+  margin-top: 7px;
   color: rgb(153, 153, 153);
   font-size: 12px;
   line-height: 1.23em;
