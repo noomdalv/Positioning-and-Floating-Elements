@@ -1,9 +1,4 @@
 /* MAIN CONTENT */
-
-.mainWrapper {
-
-}
-
 .title{
   width: 500px;
   height: 40px;
@@ -223,11 +218,16 @@
   margin-top: 40px;
 }
 
+iframe {
+  border: none;
+}
+
 #videoTitle {
   margin-right: 7px;
+  margin-top: 10px;
   color: #666;
   font-size: 15px;
-  line-height: 0.5px;
+  line-height: 4px;
 }
 
 #videoDescription {
@@ -250,11 +250,12 @@
   margin-top: 12px;
   margin-bottom: 20px;
 }
-.imageTitle {
+
+.imageDesc {
   margin-right: 7px;
   color: #666;
   font-size: 15px;
-  line-height: 0.5px;
+  line-height: 4px;
 }
 
 #btmSpan {
@@ -338,11 +339,13 @@
 
 .popular li {
   margin: 20px 0px 10px 0px;
+  padding-bottom: 14px;
+  border-bottom: solid rgb(226, 226, 226) 1px;
 }
 
 .recommendationAndPopular {
   width: 80%;
-  height: 1130px;
+  height: 1050px;
   margin: auto;
 }
 
@@ -365,6 +368,10 @@
 .recommendedBox {
   display: inline-block;
   width: 32%;
+}
+
+figure {
+  margin: 0;
 }
 
 .boxRight {
