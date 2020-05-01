@@ -7,7 +7,27 @@ This is the third project of the Main HTML/CSS curriculum at [Microverse](https:
 
 #### [Assignment link](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
 
-#### Authors
+## Screenshots
+![screenshot](https://i.imgur.com/WX06Yk9.jpg)
 
-* [@SofiBretz](https://github.com/SofiBretz)
-* [@noomdalv](https://github.com/noomdalv/)
+![screenshot](https://i.imgur.com/MJT2vw7.jpg)
+
+![screenshot](https://i.imgur.com/6DRKSHg.jpg)
+
+## Download
+
+To get a local copy up and running go to the location you'd like to add the project and then clone the repository with:
+
+```console
+git clone https://github.com/noomdalv/Positioning-and-Floating-Elements.git
+```
+
+### 👤 Authors
+
+- Github: [@SofiBretz](https://github.com/SofiBretz)
+
+- Github: [@noomdalv](https://github.com/noomdalv/)
+
+#### License
+
+This project is 📝 [MIT](https://opensource.org/licenses/MIT) licensed.
