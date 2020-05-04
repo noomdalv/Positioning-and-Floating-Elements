@@ -1,11 +1,11 @@
-# Positioning-and-Floating-Elements
+# Project: Positioning and Floating Elements
 Microverse Project: Positioning and Floating Elements
 
 This is the third project of the Main HTML/CSS curriculum at [Microverse](https://www.microverse.org/) - @microverseinc
 * The goal was to recreate a New York Times page.
 * The project was completed using simple html, css and .svg image files. 
 
-#### [Assignment link](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
+## [Assignment link](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements)
 
 ## Screenshots
 ![screenshot](https://i.imgur.com/WX06Yk9.jpg)
@@ -25,8 +25,10 @@ git clone https://github.com/noomdalv/Positioning-and-Floating-Elements.git
 ### 👤 Authors
 
 - Github: [@SofiBretz](https://github.com/SofiBretz)
+- Email: sofiabarrantes.gamboa@gmail.com
 
 - Github: [@noomdalv](https://github.com/noomdalv/)
+- Email: vladlunasan@gmail.com
 
 #### License
 
