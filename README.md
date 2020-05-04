@@ -24,11 +24,11 @@ git clone https://github.com/noomdalv/Positioning-and-Floating-Elements.git
 
 ### 👤 Authors
 
-- Github: [@SofiBretz](https://github.com/SofiBretz)
-- Email: sofiabarrantes.gamboa@gmail.com
+- Github: [@SofiBretz](https://github.com/SofiBretz)<br />
+  Email: sofiabarrantes.gamboa@gmail.com
 
-- Github: [@noomdalv](https://github.com/noomdalv/)
-- Email: vladlunasan@gmail.com
+- Github: [@noomdalv](https://github.com/noomdalv/)<br />
+  Email: vladlunasan@gmail.com
 
 #### License
 
